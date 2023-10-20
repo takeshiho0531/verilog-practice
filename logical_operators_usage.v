@@ -19,7 +19,7 @@ module logical_operators_usage();
 
         #1;
         if(my_val1 && (!my_val2)) begin
-            $display("GREAT! my_val1=%b my_val2=%b", my_val1. my_val2); // GREAT! my_val1=111 my_val2=%b
+            $display("GREAT! my_val1=%b my_val2=%b", my_val1. my_val2); // GREAT! my_val1=111 my_val2=0000
         end else begin
             display(":(I expected my_val1!=0 && my_val2=0 but my_val1=%b my_val2=%b)", my_val1, my_val2);
         end
