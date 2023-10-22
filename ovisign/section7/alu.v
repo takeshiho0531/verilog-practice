@@ -9,7 +9,7 @@ module ALU
      output reg borrow,
      output zero,
      output parity,
-     output reg incalid_op
+     output reg invalid_op
     );
 
     // Define a list of opcodes
